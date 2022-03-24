@@ -2,6 +2,7 @@
 
 mod parse;
 mod peers;
+pub mod pidfile;
 mod state;
 mod transform;
 
