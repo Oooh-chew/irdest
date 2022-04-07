@@ -1567,6 +1567,7 @@ dependencies = [
  "tracing",
  "tracing-futures",
  "tracing-subscriber",
+ "tracing-syslog",
  "twox-hash",
 ]
 
