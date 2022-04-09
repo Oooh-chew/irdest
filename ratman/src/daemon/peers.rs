@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2019-2022 Katharina Fey <kookie@spacekookie.de>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later WITH LicenseRef-AppStore
+
 use netmod_inet::{Endpoint as InetEndpoint, Result as InetResult};
 
 /// Parse a peer and introduce it to the appropriate netmod metadata

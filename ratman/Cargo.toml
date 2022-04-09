@@ -1,7 +1,7 @@
 [package]
 name = "ratman"
 description = "A decentralised and peer-to-peer packet router"
-license = "AGPL-3.0"
+license = "AGPL-3.0-or-later"
 version = "0.3.1"
 edition = "2018"
 

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2019-2022 Katharina Fey <kookie@spacekookie.de>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later WITH LicenseRef-AppStore
+
 //! TCP internal protocol used to share connection state
 
 use crate::LinkType;

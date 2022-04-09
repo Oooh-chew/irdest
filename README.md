@@ -95,9 +95,9 @@ versions of the Program as incorporated into each applicable covered
 work as Executable Versions only under the Mozilla Public License
 version 2.0.
 
-A copy of both the AGPL-3.0 and MPL-2.0 license texts are included in
-this repository, along other external licenses for third-party code,
-and can be found in the [licenses](licenses) directory.
+Copies of appropriate license texts are included in this repository.
+We use the [REUSE] specification.  All license texts can be found in
+the [LICENSES] directory.
 
 
 [Matrix]: https://matrix.to/#/#irdest:fairydust.space?via=ontheblueplanet.com&via=matrix.org&via=fairydust.space
@@ -109,10 +109,11 @@ and can be found in the [licenses](licenses) directory.
 [docs]: ./docs
 [gossip protocol]: https://en.wikipedia.org/wiki/Gossip_protocol
 [irdest-mblog]: mblog.irde.st
-[licenses]: ./licenses
+[LICENSES]: ./LICENSES
 [netmods]: ./netmods
 [nix]: ./nix
 [ratman]: ./ratman
+[REUSE]: https://reuse.software/
 [tests]: ./tests
 [user manual]: https://docs.irde.st/user/
 [utils]: ./utils

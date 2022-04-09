@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2019-2022 Katharina Fey <kookie@spacekookie.de>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later WITH LicenseRef-AppStore
+
 //! New peer abstraction module
 //!
 //! The lifecycle of a peer is encoded is the following flow-chart:

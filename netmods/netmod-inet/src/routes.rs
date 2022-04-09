@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2019-2022 Katharina Fey <kookie@spacekookie.de>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later WITH LicenseRef-AppStore
+
 //! Route management module
 //!
 //! Because ratman performes route lookups via public key IDs, we need

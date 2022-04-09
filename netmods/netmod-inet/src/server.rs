@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2019-2022 Katharina Fey <kookie@spacekookie.de>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later WITH LicenseRef-AppStore
+
 //! TCP incoming connection server
 
 use crate::{IoPair, LinkType, Mode, Packet, PacketBuilder, PeerState, Result, Routes, SourceAddr};
