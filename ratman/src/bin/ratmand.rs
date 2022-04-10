@@ -6,7 +6,7 @@ extern crate tracing;
 pub(crate) use ratman::*;
 
 use clap::{App, Arg, ArgMatches};
-use netmod_inet::{Endpoint as Inet, Mode};
+use netmod_inet::InetEndpoint as Inet;
 use netmod_lan::{default_iface, Endpoint as LanDiscovery};
 use std::{fs::File, io::Read};
 
@@ -152,13 +152,7 @@ async fn main() {
 
     let r = Router::new();
     if !m.is_present("NO_INET") {
-        let tcp = match Inet::new(
-            m.value_of("INET_BIND").unwrap(),
-            "ratmand",
-            if dynamic { Mode::Dynamic } else { Mode::Static },
-        )
-        .await
-        {
+        let tcp = match Inet::start(m.value_of("INET_BIND").unwrap()).await {
             Ok(tcp) => {
                 // Open the UPNP port if the user enabled this feature
                 if m.is_present("USE_UPNP") {
