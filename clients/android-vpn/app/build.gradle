@@ -7,7 +7,7 @@ apply plugin: 'org.mozilla.rust-android-gradle.rust-android'
 
 android {
     compileSdk 32
-
+    
     ndkVersion "23.2.8568313"
 
     defaultConfig {
@@ -33,9 +33,9 @@ android {
 }
 
 cargo {
-    module = "../jni"
-    libname = "ratman"
-    targets = ["arm64", "x86_64"]
+    module = "../../../ratman/lib-client"
+    libname = "ratman-client"
+    targets = ["arm", "x86", "arm64", "x86_64"]
 }
 
 dependencies {
